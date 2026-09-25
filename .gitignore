@@ -1,0 +1,41 @@
+# Build directories & objects
+build/
+bin/
+obj/
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.exe
+
+# IDE / Toolchains
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*~
+*.orig
+
+# Keil / STM32CubeIDE / IAR
+*.uvopt*
+*.uvproj*
+*.launch
+.project
+.cproject
+.settings/
+Debug/
+Release/
+
+# Python / Environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS artifacts
+Thumbs.db
+.DS_Store
